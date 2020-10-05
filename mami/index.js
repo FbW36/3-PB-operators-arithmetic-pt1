@@ -28,6 +28,6 @@ bananas--;
 
 console.log(bananas);
 
-let happiness = banana - monkeys;
+let happiness = bananas - monkeys;
 
 console.log(resultOne % resultTwo);
