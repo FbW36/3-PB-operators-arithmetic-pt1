@@ -44,8 +44,8 @@ monkeys = monkeys + 1;
 console.log(monkeys);
 
 // 9 Decrement bananas
-monkeys = monkeys - 1;
-console.log(monkeys);
+bananas = bananas - 1;
+console.log(bananas);
 
 // 10
 let happiness = bananas - monkeys;
