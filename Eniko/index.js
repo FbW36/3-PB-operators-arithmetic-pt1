@@ -1,5 +1,6 @@
 var snackServings = 120;
 var guests = 150;
+console.log(snackServings + guests);
 
 console.log(snackServings - guests);
 console.log(guests - snackServings);
