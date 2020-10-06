@@ -1,6 +1,7 @@
 // task 1
 let snackServings = 26;
 let guests = 9;
+console.log(snackServings + guests);
 
 // task 2
 console.log(snackServings - guests);
@@ -28,10 +29,10 @@ let resultTwo = (monkeys + bananas) * monkeyFights;
 console.log(resultTwo);
 
 // task 7
-monkeys = 20;
+console.log(++monkeys);
 
 // task 8
-bananas = 2;
+console.log(--bananas);
 
 // task 9
 let happiness = bananas - monkeys;
