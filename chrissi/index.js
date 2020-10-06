@@ -3,12 +3,11 @@
 let snackServings = 4;
 let guests = 16;
 
-console.log(snackServings, guests);
-
 // 1 ADD
 console.log(snackServings + guests);
 
 // 2 SUB
+console.log(guests - snackServings);
 console.log(snackServings - guests);
 
 // 3 MULT
@@ -16,17 +15,10 @@ console.log(snackServings * guests);
 
 // 4 DIV
 console.log(snackServings / guests);
-console.log(guests / snackServings);
 
 // 5
 let drinks = 10;
-
-// (snackServings * guests) = 64
-
-console.log(64 / drinks);
-// (64 / 10) = 6.4
-
-let resultOne = 6.4;
+let resultOne = (snackServings * guests) / drinks;
 
 console.log(resultOne);
 
@@ -39,17 +31,16 @@ console.log(monkeys / bananas);
 
 let monkeyfights = 20;
 
-console.log((monkeys + bananas) * monkeyfights);
+let resultTwo = (monkeys + bananas) * monkeyfights;
 
-let resultTwo = 480;
 console.log(resultTwo);
 
 // 8
 
-monkeys = 18;
+monkeys++;
 
 // 9
-bananas = 6;
+bananas--;
 
 // 10
 let happiness = monkeys - bananas;
