@@ -33,4 +33,4 @@ bananas--;
 var happiness = monkeys - bananas;
 happiness + monkeyfights;
 
-console.log(resultOne / resultTwo);
+console.log(resultOne % resultTwo);
