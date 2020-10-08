@@ -9,6 +9,11 @@ let monkeyfights = 20;
 // 1. Add snackServings and guests
 
 console.log(snackServings + guests);
+//Try to also subtract snackServings from guests and print the result to the console!
+
+console.log(snackServings - guests);
+
+console.log(guests - snackServings);
 
 // 2. Subtract guests from snackServings. Then, subtract snackServings from guests.
 console.log(snackServings - guests);
