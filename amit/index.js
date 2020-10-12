@@ -2,6 +2,7 @@ let snackServings = 22;
 let guests = 25;
 let add = snackServings + guests;
 let sub = snackServings - guests;
+let su2 = guests - snackServings;
 let mal = snackServings * guests;
 let div = snackServings / guests;
 let drinks = 10;
@@ -18,8 +19,9 @@ let mal2 = add2 * monkeyfights;
 let resultTwo = mal2;
 console.log(resultTwo);
 
-monkeys = monkeys + 10;
-bananas = bananas - 5;
+console.log("q8a:", ++monkeys); // 15+1 =16
+console.log("q9a:", --bananas); // 9-1 = 8
+
 let sub2 = bananas - monkeys;
 let happiness = sub2;
 let add3 = happiness + monkeyfights;
